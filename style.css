@@ -1,0 +1,163 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    font-family: 'Philosopher', sans-serif,"Open Sans", sans-serif;
+    font-size: 16px;
+    background-image: url(./img/vlastelin-kolec-the-lord-of-3780.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+header{
+    background-color: rgba(59, 55, 55, 0.74);
+    padding: 0 30px;
+    position: relative;
+    box-shadow: 0px 7px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.header-img{
+    width: 400px;
+    float: right;
+    border-radius: 40%;
+}
+.info p{
+    font-size: 20px;
+    line-height: 1.4;
+    color: #fff;
+    text-align: left;
+}
+p{
+    text-indent: 40px;
+    text-align: justify;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-top: none;
+}
+main{
+    background-color: #fff;
+    padding: 25px 15px 45px 15px;
+}
+
+h2{
+    font-family: 'Marck Script', cursive;
+    font-size: 30px;
+    margin: 20px 0;
+}
+h1{
+    font-family: 'Marck Script', cursive;
+    font-size: 80px;
+    text-align: center;
+    padding: 30px 0;
+    color: #fff;
+}
+.subtitle{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+.list{
+    margin-bottom: 30px;
+}
+.list2{
+    padding-bottom: 30px;
+}
+
+li{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 30px;
+    margin-right: 30px;
+}
+li:last-child{
+    margin-left: 0;
+}
+
+.chapter-link a,
+.note-link a{
+    color: #fff;
+}
+.chapter-link:hover,
+.note-link:hover{
+    text-decoration:underline;
+}
+.note-link a{
+    font-size: 20px;
+}
+span{
+    font-style: italic;
+    font-size: 20px;
+}
+.charter1-img{
+    width: 300px;
+    float: left;
+    margin: 0 15px 15px 0;
+    border: 1px solid black;
+}
+.charter2-img{
+    width: 400px;
+    float: right;
+    margin: 0 0 15px 15px;
+    border: 1px solid black;
+}
+.charter3-img{
+    width: 500px;
+    float: left;
+    margin:  0 15px 15px 0;
+    border: 1px solid black;
+}
+.charter4-img{
+    width: 300px;
+    float: right;
+    margin: 0 0 15px 15px;
+    border: 1px solid black;
+}
+.charter5-img{
+    width: 400px;
+    float: left;
+    margin:  0 15px 15px 0;
+    border: 1px solid black;
+}
+.top{
+    width: 60px;
+    height: 60px;
+    display: block;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 1);
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    box-shadow: 0px 0px 27px #fff;
+    background-image: url('./img/arrow_up_icon_128943.png');
+    background-size: contain;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+    background-image: url('./img/klipartz.com.png');
+    background-size:100% 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
